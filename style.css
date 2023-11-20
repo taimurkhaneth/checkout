@@ -1,0 +1,195 @@
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #b9bac2, #98a9d4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: #FFFDFE;
+            height: 850px;
+            /* margin-top: 25%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            /* border: solid orange;0 */
+            border-radius: 20px;
+            box-shadow: black 5px 5px 10px;
+
+        }
+
+        .item {
+            background-color: #FFFDFE;
+            /* border: 2px solid; */
+            width: 600px;
+            height: 700px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .line {
+            border-left: 2px solid #676667;
+            height: 810px;
+            position: absolute;
+            left: 50%;
+        }
+
+        .item {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            color: rgb(0, 0, 0);
+            font-weight: 800;
+
+        }
+
+        input {
+            width: 600px;
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            font-weight: 900;
+            margin-bottom: 10px;
+            /* Adjust this value as needed */
+
+        }
+
+        .item form {
+            margin-top: 0;
+            /* Adjust this value as needed */
+        }
+
+        .item2 h2 {
+            margin-bottom: 50px;
+            /* Reduced bottom margin */
+            color: rgb(0, 0, 0);
+            text-align: start;
+            width: 100%;
+            /* margin-top: 50px; */
+            font-weight: 500;
+            margin-bottom: 110px;
+            font-weight: 800;
+
+
+        }
+
+        .item2 {
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            height: 700px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 600px;
+            padding-top: 5%;
+            padding-bottom: 10%;
+        }
+
+        .form-control {
+            border: solid;
+        }
+
+        .name {
+            border: solid #CACACA;
+            width: 550px;
+
+            /* margin-bottom: 20px; */
+            /* padding: 2%; */
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        .row-flex {
+            display: flex;
+        }
+
+        .row-flex div {
+            /* flex: 0.5; */
+            /* This makes each child div take equal space */
+            padding: px;
+            /* Optional: adds some space around the inputs */
+            width: 150px;
+            margin-right: 20px;
+
+        }
+
+        .name2 {
+            width: 85%;
+            border: solid #CACACA;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            /* Make the input take the full width of its parent div */
+            /* Other styling as needed */
+            /* margin-top: 50px; */
+
+        }
+
+        .price {
+            text-align: center;
+            color: rgb(73, 74, 78);
+            font-size: large;
+            font-weight: 800;
+        }
+
+        .name3 {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+
+
+        .btn {
+            background: linear-gradient(to right, #997946, #C2A271);
+            border: none;
+            margin-top: 50px;
+            width: 550px
+        }
+        .btn:hover {
+            background: linear-gradient(to right, #000000, #000000);
+         
+        }
+
+
+        .name::placeholder,
+        .name2::placeholder {
+            text-align: center;
+            /* Move the placeholders to the right */
+        }
+
+        label {
+            color: #717171;
+            font-weight: 500;
+            font-size: 20px;
+
+        }
+
+        h6 {
+            color: #1D212D;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .bi-shield-lock-fill {
+            margin-right: 10px;
+        }
+        .bi-patch-question-fill { 
+            /* margin-left: px; */
+            margin-top: 10px;
+        }
